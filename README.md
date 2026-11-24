@@ -85,7 +85,6 @@ Avant de lancer les tests, vérifie ces points :
 ```bash
 git clone https://github.com/AMaeva-K1/Projet-Cloudbank.git
 cd Projet-Cloudbank
-git checkout version2
 mvn clean test
 ```
 
@@ -120,11 +119,10 @@ cp mail.properties.example mail.properties
 
 | Branche | Contenu |
 |---|---|
-| `main` | Branche par défaut, contient uniquement ce README |
-| `version1` | Première version : connexion et création de fournisseur avec Page Factory |
+| `main` | **Version de référence** : gestion complète des fournisseurs, compte de gestion, rapports Allure, envoi du rapport par e-mail |
+| `master` | Version intermédiaire : fournisseurs, compte de gestion, rapport Allure, premier envoi d'e-mail |
 | `driver-manage-with-singleton` | Introduction du singleton pour partager le WebDriver |
-| `master` | Gestion complète des fournisseurs, compte de gestion, rapport Allure, envoi d'e-mail |
-| `version2` | Version la plus récente : nouveaux jeux de données et utilitaire `refreshProject` |
+| `version1` | Première version : connexion et création de fournisseur avec Page Factory |
 
 ## Limites connues
 
@@ -135,5 +133,4 @@ cp mail.properties.example mail.properties
 
 ## Auteurs
 
-- **Maeva Kouomo**
-- **Daryl Noupik** (gestion du WebDriver en singleton)
+**Ange Maéva KOUOMO**
