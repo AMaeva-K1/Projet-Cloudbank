@@ -1,0 +1,32 @@
+# Build Maven
+target/
+
+# Résultats et rapports de tests
+allure-results/
+allure-report/
+test-output/
+
+# Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Secrets et configuration locale
+mail.properties
+*.env
+.env
+
+# Système
+.DS_Store
+Thumbs.db
+*.log

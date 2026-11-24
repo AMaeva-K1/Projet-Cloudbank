@@ -1,0 +1,34 @@
+# Copier ce fichier en "mail.properties" à la racine du projet, puis le remplir.
+# mail.properties est ignoré par Git : ne jamais le commiter.
+# Chaque clé peut aussi être fournie par la variable d'environnement
+# indiquée en commentaire (elle est alors prioritaire).
+
+# --- Serveur SMTP ---
+# SMTP_HOST
+smtp.host=smtp.exemple.com
+# SMTP_PORT
+smtp.port=587
+# SMTP_LOGIN
+smtp.login=votre.adresse@exemple.com
+# SMTP_PASSWORD
+smtp.password=
+
+# --- Expéditeur ---
+# MAIL_FROM_NAME
+mail.from.name=CloudBank
+# MAIL_FROM_ADDRESS (par défaut : smtp.login)
+mail.from.address=
+
+# --- Destinataire ---
+# MAIL_TO_ADDRESS
+mail.to.address=destinataire@exemple.com
+# MAIL_TO_NAME
+mail.to.name=
+
+# --- Contenu ---
+# MAIL_SUBJECT
+mail.subject=Rapport de tests CloudBank
+# MAIL_BODY
+mail.body=Veuillez trouver ci-joint le rapport des tests.
+# MAIL_ATTACHMENT (chemin du fichier à joindre)
+mail.attachment=
